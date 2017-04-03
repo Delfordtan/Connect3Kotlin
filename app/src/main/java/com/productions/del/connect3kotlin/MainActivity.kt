@@ -113,7 +113,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun reset(v: View) {
+    fun reset(view: View) {
         game.board = intArrayOf(0, 0, 0, 0, 0, 0, 0, 0, 0)
         for (counter in counterArray) {
             counter?.setImageResource(0)
